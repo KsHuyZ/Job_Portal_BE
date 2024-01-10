@@ -32,7 +32,6 @@ router.post(
   "/user/jobhistory",
   isAuthenticated,
   uploadCloud.single("file"),
-  createUserJobsHistory
-);
+  createUserJobsHistory);
 
 module.exports = router;
